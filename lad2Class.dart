@@ -12,7 +12,7 @@ void main() {
   }
   
   for (int i = 0; i < fruits.length; i++){
-    print(fruits[i].fruitName + "มีราคา" + fruits[i].fruitPrice.toString());
+    print(fruits[i].fruitName +  fruits[i].fruitPrice.toString());
   }
 }
 
